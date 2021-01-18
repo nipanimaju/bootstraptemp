@@ -1,6 +1,6 @@
 # BOOTSTRAP 5 + FONT AWESOME FREE Template
 
-![mockup](https://github.com/nipanimaju/bootsraptemp/blob/master/mockup.png?raw=true "mockup")
+![mockup](https://github.com/nipanimaju/bootstaptemp/blob/master/mockup.png?raw=true "mockup")
 [Mockup Designed by Freepik](http://www.freepik.com)
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
