@@ -1,0 +1,249 @@
+body,
+body * {
+  box-sizing: border-box;
+}
+
+hr.divider,
+hr.divider2 {
+  width: 3.25rem;
+  height: 3px;
+}
+
+.navbar {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-nav {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nav-link {
+  margin-right: 1.5em;
+}
+
+.navbar-brand,
+.nav-link,
+.name {
+  font-family: 'PT Serif', serif;
+}
+
+.hero {
+  height: 55vh;
+  background: url("../images/main.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .35);
+  margin: 0;
+}
+
+.slogan,
+.small-title,
+hr.divider2,
+.name,
+.button-more,
+.button-more:hover,
+.button-copy,
+.button-copy:hover,
+.links,
+.texth,
+.overlay,
+a:visited,
+a:hover {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.name {
+  font-weight: bolder;
+  font-size: 2em;
+}
+
+.button-more {
+  border-radius: 25px;
+}
+
+.border-width {
+  width: 90%;
+}
+
+.team {
+  border: 0.7em solid white;
+  border-bottom: none;
+  margin-top: -2.5rem;
+}
+
+#about,
+.button-copy,
+.button-more {
+  background-color: #63846E;
+}
+
+.btn {
+  border: solid 1px #63846E;
+}
+
+.gallery {
+  --bs-gutter-x: 0.5em;
+  --bs-gutter-y: 0.5em;
+}
+
+.modal-bg {
+  background: none;
+  border: none;
+}
+
+.header-size {
+  border: none
+}
+
+#item3 {
+  background-color: #343A3F;
+}
+
+.facebook,
+.instagram,
+.twitter,
+.pinterest {
+  height: 9em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.facebook {
+  background-color: #24528F;
+}
+
+.pinterest {
+  background-color: #C34992;
+}
+
+.twitter {
+  background-color: #3D90CF;
+}
+
+.instagram {
+  background-color: #AA1316;
+}
+
+.active,
+.icon,
+hr.divider,
+hr.divider2 {
+  color: #63846E !important;
+}
+
+.facebook:hover,
+.instagram:hover,
+.pinterest:hover,
+.twitter:hover {
+  box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, .35);
+}
+
+.form-control-plaintext {
+  text-align: center;
+  width: 11em;
+}
+
+.form-control-plaintext:focus {
+  outline: none;
+  background: transparent;
+}
+
+.modal-show {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, .55);
+  -webkit-animation: fadein 0.6s ease-in alternate infinite;
+  -moz-animation: fadein 0.6s ease-in alternate infinite;
+  animation: fadein 0.6s ease-in alternate infinite;
+
+}
+
+.texth {
+  width: 8em;
+  height: 3em;
+  font-weight: bold;
+  font-size: large;
+}
+
+.modal-hide {
+  position: absolute;
+  opacity: 0;
+  z-index: -10;
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: #63846E;
+  background: rgba(99, 132, 110, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  opacity: 0;
+  font-size: 20px;
+}
+
+.wrap {
+  position: relative;
+}
+
+.wrap:hover .overlay,
+.modal-show,
+hr.divider,
+hr.divider2 {
+  opacity: 1;
+}
