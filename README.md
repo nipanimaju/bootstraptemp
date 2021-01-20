@@ -7,7 +7,7 @@
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg?logo=paypal)](https://www.paypal.com/paypalme/nipanimaju)
 
 * Licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
-* [Live Demo](http://deltacrateris.de/)
+* [Live Demo](https://deltacrateris.de/)
 * Edit the HTML, CSS and JS to fit your needs.
 * The HTML file contains all texts and social media account links.
 * Plenty of comments included. ;)
